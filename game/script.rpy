@@ -1,4 +1,5 @@
 init: 
+    #same text
     #Add "cleft", "cright"
     transform cleft:
         xalign .4 yalign 1.0
