@@ -115,9 +115,9 @@ label start:
     menu:
         "Крикнуть «Обнимашки!» и обнять Ману":
             $ hug_trigger = 1
+            show pn at cright with move
             hide pn with dissolve
-            show pnhappy at right with dissolve
-            show pnhappy at сright with move
+            show pnhappy at cright with dissolve
             "Планя набрала побольше воздуха в легкие, расставила руки в стороны и с криком: «Ман, обнимашки!» прыгнула на подругу."
             hide mnsleep with dissolve
             show mn at center with dissolve

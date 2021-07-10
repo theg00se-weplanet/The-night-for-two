@@ -1,0 +1,26 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 120, in script
+    show pnhappy at сright with move
+SyntaxError: invalid syntax (script.rpy, line 120)
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 120, in script
+    show pnhappy at сright with move
+  File "renpy/ast.py", line 1191, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1150, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "renpy/python.py", line 2247, in py_eval
+    code = py_compile(code, 'eval')
+  File "renpy/python.py", line 835, in py_compile
+    raise e
+SyntaxError: invalid syntax (script.rpy, line 120)
+
+Windows-7-6.1.7601-SP1
+Ren'Py 7.4.6.1693
+Я не буду искать оправданий 0.1-beta
+Sat Jul 10 16:52:35 2021
