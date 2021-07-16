@@ -1,19 +1,19 @@
-Mon Jul 12 04:34:22 2021
+Fri Jul 16 06:12:07 2021
 Linux-5.8.0-59-generic-x86_64-with-debian-bullseye-sid
 Ren'Py 7.4.6.1693
  
 
-Bootstrap to the start of init.init took 0.11s
+Bootstrap to the start of init.init took 0.12s
 Early init took 0.00s
 Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.25s
+Loading error handling took 0.03s
+Loading script took 0.47s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
+Running init code took 0.06s
 Loading analysis data took 0.04s
-Analyze and compile ATL took 0.00s
+Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
 Dump and make backups. took 0.08s
@@ -28,76 +28,34 @@ Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.08s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.11s
 Save bytecode. took 0.03s
 Running _start took 0.00s
 Performance test:
-Interface start took 0.13s
+Interface start took 0.43s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
+primary display bounds: (1366, 0, 1920, 1080)
 swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Maximum texture size: 4096x4096
-Total time until interface ready: 1.16364192963s
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
+Total time until interface ready: 1.89187812805s
+Screen sizes: virtual=(1920, 1080) physical=(1854, 1016) drawable=(1854, 1016)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Maximum texture size: 4096x4096
 Resetting cache.
-Bootstrap to the start of init.init took 57.06s
+Bootstrap to the start of init.init took 362.43s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.03s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.03s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.04s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.08s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 57.8282458782s
-Resetting cache.
-Bootstrap to the start of init.init took 97.94s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.17s
+Loading script took 0.23s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -109,6 +67,50 @@ Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
 Dump and make backups. took 0.09s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
+Initial gc. took 0.04s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.11s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (1366, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Maximum texture size: 4096x4096
+Total time until interface ready: 363.385130167s
+Resetting cache.
+Bootstrap to the start of init.init took 436.05s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
 Initial gc. took 0.05s
 DPI scale factor: 1.000000
 Creating interface object took 0.00s
@@ -117,36 +119,58 @@ Init translation took 0.06s
 Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
-Save screen analysis took 0.09s
+Save screen analysis took 0.08s
 Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
+Save pyanalysis. took 0.11s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
 Interface start took 0.05s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
+primary display bounds: (1366, 0, 1920, 1080)
 swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Maximum texture size: 4096x4096
-Total time until interface ready: 98.7674350739s
+Total time until interface ready: 437.017862082s
+
+Full traceback:
+  File "game/script.rpy", line 410, in script
+    show pnshock at center with leap
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/ast.py", line 1437, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/exports.py", line 1682, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 2718, in do_with
+    clear=clear)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 3633, in interact_core
+    new_widget=layers_root)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/atl.py", line 455, in __call__
+    raise Exception('Parameter %r is not known by ATL Transform.' % k)
+Exception: Parameter 'new_widget' is not known by ATL Transform.
+
+While running game code:
+  File "game/script.rpy", line 410, in script
+    show pnshock at center with leap
+Exception: Parameter 'new_widget' is not known by ATL Transform.
 Resetting cache.
-Bootstrap to the start of init.init took 158.38s
+Bootstrap to the start of init.init took 682.46s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.21s
+Loading script took 0.23s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.04s
+Running init code took 0.04s
+Loading analysis data took 0.03s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
@@ -170,28 +194,48 @@ Performance test:
 Interface start took 0.05s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
+primary display bounds: (1366, 0, 1920, 1080)
 swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Maximum texture size: 4096x4096
-Total time until interface ready: 159.238620996s
+Total time until interface ready: 683.305879116s
+
+Full traceback:
+  File "game/script.rpy", line 417, in script
+    if trigger_globe == True:
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/ast.py", line 1892, in execute
+    if renpy.python.py_eval(condition):
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/python.py", line 2249, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/python.py", line 2242, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 417, in <module>
+    if trigger_globe == True:
+NameError: name 'trigger_globe' is not defined
+
+While running game code:
+  File "game/script.rpy", line 417, in script
+    if trigger_globe == True:
+  File "game/script.rpy", line 417, in <module>
+    if trigger_globe == True:
+NameError: name 'trigger_globe' is not defined
 Resetting cache.
-Bootstrap to the start of init.init took 272.78s
+Bootstrap to the start of init.init took 730.42s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.17s
+Loading script took 0.25s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
+Running init code took 0.03s
 Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
+Analyze and compile ATL took 0.01s
 Index archives took 0.00s
 Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
 Dump and make backups. took 0.08s
@@ -207,6 +251,50 @@ Load screen analysis took 0.00s
 Analyze screens took 0.02s
 Save screen analysis took 0.08s
 Prepare screens took 0.10s
+Save pyanalysis. took 0.11s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (1366, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Maximum texture size: 4096x4096
+Total time until interface ready: 731.421344042s
+Resetting cache.
+Bootstrap to the start of init.init took 738.33s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.10s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
@@ -214,29 +302,22 @@ Performance test:
 Interface start took 0.05s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
+primary display bounds: (1366, 0, 1920, 1080)
 swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Maximum texture size: 4096x4096
-Total time until interface ready: 273.594017029s
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.01s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
+Total time until interface ready: 739.219505072s
 Resetting cache.
-Bootstrap to the start of init.init took 313.62s
+Bootstrap to the start of init.init took 768.73s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.17s
+Loading script took 0.25s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
@@ -256,360 +337,8 @@ Init translation took 0.06s
 Build styles took 0.01s
 Load screen analysis took 0.00s
 Analyze screens took 0.02s
-Save screen analysis took 0.09s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 314.473417997s
-Resetting cache.
-Bootstrap to the start of init.init took 353.09s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.09s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 353.948862076s
-Resetting cache.
-Bootstrap to the start of init.init took 409.01s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.16s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
 Save screen analysis took 0.08s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.10s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 409.892484903s
-Resetting cache.
-Bootstrap to the start of init.init took 415.32s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.09s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 416.188165903s
-Resetting cache.
-Bootstrap to the start of init.init took 444.18s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.21s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.08s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.10s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 445.125946045s
-Resetting cache.
-Bootstrap to the start of init.init took 467.16s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.22s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.07s
-Loading analysis data took 0.04s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.09s
 Prepare screens took 0.12s
-Save pyanalysis. took 0.13s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 468.269146919s
-Resetting cache.
-Bootstrap to the start of init.init took 515.55s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.01s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.08s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.10s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.04s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 516.467264891s
-Resetting cache.
-Bootstrap to the start of init.init took 592.76s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.08s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 593.610594034s
-Resetting cache.
-Bootstrap to the start of init.init took 614.15s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.18s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.10s
-Prepare screens took 0.11s
 Save pyanalysis. took 0.00s
 Save bytecode. took 0.02s
 Running _start took 0.00s
@@ -617,203 +346,27 @@ Performance test:
 Interface start took 0.06s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
+primary display bounds: (1366, 0, 1920, 1080)
 swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Maximum texture size: 4096x4096
-Total time until interface ready: 615.028249979s
+Total time until interface ready: 769.6863451s
 Resetting cache.
-Bootstrap to the start of init.init took 680.75s
+Bootstrap to the start of init.init took 812.71s
 Early init took 0.00s
 Loader init took 0.01s
 Loading error handling took 0.02s
-Loading script took 0.17s
+Loading script took 0.26s
 Loading save slot metadata. took 0.01s
 Loading persistent took 0.00s
 Importing _renpysteam: ImportError('No module named _renpysteam',)
 Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.09s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 681.568068981s
-Resetting cache.
-Bootstrap to the start of init.init took 699.09s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.08s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.06s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.08s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 699.911769867s
-Resetting cache.
-Bootstrap to the start of init.init took 706.87s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.09s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.09s
-Prepare screens took 0.11s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 707.736474037s
-Resetting cache.
-Bootstrap to the start of init.init took 756.83s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.19s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Index archives took 0.00s
-Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
-Dump and make backups. took 0.10s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc. took 0.05s
-DPI scale factor: 1.000000
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.02s
-Save screen analysis took 0.08s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Performance test:
-Interface start took 0.05s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
-Maximum texture size: 4096x4096
-Total time until interface ready: 757.679339886s
-Resetting cache.
-Bootstrap to the start of init.init took 772.14s
-Early init took 0.00s
-Loader init took 0.01s
-Loading error handling took 0.02s
-Loading script took 0.17s
-Loading save slot metadata. took 0.01s
-Loading persistent took 0.00s
-Importing _renpysteam: ImportError('No module named _renpysteam',)
-Running init code took 0.04s
-Loading analysis data took 0.03s
+Loading analysis data took 0.04s
 Analyze and compile ATL took 0.00s
 Index archives took 0.00s
 Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
@@ -834,16 +387,350 @@ Save pyanalysis. took 0.12s
 Save bytecode. took 0.02s
 Running _start took 0.00s
 Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (1366, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Maximum texture size: 4096x4096
+Total time until interface ready: 813.737648964s
+Resetting cache.
+Bootstrap to the start of init.init took 814.52s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Index archives took 0.00s
+Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.13s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
 Interface start took 0.06s
 
 Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
+primary display bounds: (1366, 0, 1920, 1080)
 swap interval: 1 frames
-Windowed mode.
-Vendor: 'NVIDIA Corporation'
-Renderer: 'GeForce GT 720M/PCIe/SSE2'
-Version: '4.4.0 NVIDIA 340.108'
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
 Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1300, 704) drawable=(1300, 704)
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
 Maximum texture size: 4096x4096
-Total time until interface ready: 773.097177982s
+Total time until interface ready: 815.578772068s
+Resetting cache.
+Bootstrap to the start of init.init took 838.03s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (1366, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Maximum texture size: 4096x4096
+Total time until interface ready: 838.920240164s
+Resetting cache.
+Bootstrap to the start of init.init took 869.29s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.27s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.11s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (1366, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Maximum texture size: 4096x4096
+Total time until interface ready: 870.299459934s
+
+Full traceback:
+  File "game/script.rpy", line 485, in script
+    scene mnRoomBlur with dissolve
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/ast.py", line 1437, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/exports.py", line 1682, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 2718, in do_with
+    clear=clear)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 3792, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 2521, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/transition.py", line 368, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/transform.py", line 708, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/image.py", line 501, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/image.py", line 307, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/im.py", line 607, in render
+    return cache.get(self, render=True)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/im.py", line 271, in get
+    surf = image.load()
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/im.py", line 688, in load
+    raise e
+IOError: Couldn't find file 'images/mnRoomBlur.jpg'.
+
+While loading <'Image' u'images/mnRoomBlur.jpg'>:
+  File "game/script.rpy", line 485, in script
+    scene mnRoomBlur with dissolve
+IOError: Couldn't find file 'images/mnRoomBlur.jpg'.
+Resetting cache.
+Bootstrap to the start of init.init took 935.90s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.24s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
+Dump and make backups. took 0.08s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.05s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.08s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (1366, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Maximum texture size: 4096x4096
+Total time until interface ready: 936.772007942s
+
+Full traceback:
+  File "game/script.rpy", line 486, in script
+    "Пятен в поле зрения становилось все больше, комната начала кружиться, а ноги отказывались слушаться и превратились в ватные колонны, которые были не в силах удержать такое враз потяжелевшее тело…"
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/ast.py", line 715, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/character.py", line 1219, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/character.py", line 871, in do_display
+    **display_args)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/character.py", line 621, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 3792, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 2521, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/transform.py", line 708, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/image.py", line 501, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/image.py", line 307, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/im.py", line 607, in render
+    return cache.get(self, render=True)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/im.py", line 271, in get
+    surf = image.load()
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/im.py", line 688, in load
+    raise e
+IOError: Couldn't find file 'images/mnRoomBlur2.jpg'.
+
+While loading <'Image' u'images/mnRoomBlur2.jpg'>:
+  File "game/script.rpy", line 486, in script
+    "Пятен в поле зрения становилось все больше, комната начала кружиться, а ноги отказывались слушаться и превратились в ватные колонны, которые были не в силах удержать такое враз потяжелевшее тело…"
+IOError: Couldn't find file 'images/mnRoomBlur2.jpg'.
+Resetting cache.
+Bootstrap to the start of init.init took 954.24s
+Early init took 0.00s
+Loader init took 0.01s
+Loading error handling took 0.02s
+Loading script took 0.29s
+Loading save slot metadata. took 0.01s
+Loading persistent took 0.00s
+Importing _renpysteam: ImportError('No module named _renpysteam',)
+Running init code took 0.05s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Index archives took 0.00s
+Backing up script files to '/home/the-g00se/.renpy/backups/The-night-for-two':
+Dump and make backups. took 0.09s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc. took 0.06s
+DPI scale factor: 1.000000
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.10s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Performance test:
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (1366, 0, 1920, 1080)
+swap interval: 1 frames
+Fullscreen mode.
+Vendor: 'Intel Open Source Technology Center'
+Renderer: 'Mesa DRI Intel(R) HD Graphics 4000 (IVB GT2)'
+Version: '3.0 Mesa 20.2.6'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1920, 1080) drawable=(1920, 1080)
+Maximum texture size: 4096x4096
+Total time until interface ready: 955.253638029s

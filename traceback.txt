@@ -1,26 +1,66 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "game/script.rpy", line 120, in script
-    show pnhappy at сright with move
-SyntaxError: invalid syntax (script.rpy, line 120)
+While loading <'Image' u'images/mnRoomBlur2.jpg'>:
+  File "game/script.rpy", line 486, in script
+    "Пятен в поле зрения становилось все больше, комната начала кружиться, а ноги отказывались слушаться и превратились в ватные колонны, которые были не в силах удержать такое враз потяжелевшее тело…"
+IOError: Couldn't find file 'images/mnRoomBlur2.jpg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 120, in script
-    show pnhappy at сright with move
-  File "renpy/ast.py", line 1191, in execute
-    show_imspec(self.imspec, atl=getattr(self, "atl", None))
-  File "renpy/ast.py", line 1150, in show_imspec
-    at_list = [ renpy.python.py_eval(i) for i in at_list ]
-  File "renpy/python.py", line 2247, in py_eval
-    code = py_compile(code, 'eval')
-  File "renpy/python.py", line 835, in py_compile
+  File "game/script.rpy", line 486, in script
+    "Пятен в поле зрения становилось все больше, комната начала кружиться, а ноги отказывались слушаться и превратились в ватные колонны, которые были не в силах удержать такое враз потяжелевшее тело…"
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/ast.py", line 715, in execute
+    renpy.exports.say(who, what, *args, **kwargs)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/exports.py", line 1417, in say
+    who(what, *args, **kwargs)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/character.py", line 1219, in __call__
+    self.do_display(who, what, cb_args=self.cb_args, dtt=dtt, **display_args)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/character.py", line 871, in do_display
+    **display_args)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/character.py", line 621, in display_say
+    rv = renpy.ui.interact(mouse='say', type=type, roll_forward=roll_forward)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/ui.py", line 298, in interact
+    rv = renpy.game.interface.interact(roll_forward=roll_forward, **kwargs)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 3792, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/core.py", line 2521, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/transform.py", line 708, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/image.py", line 501, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/image.py", line 307, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/im.py", line 607, in render
+    return cache.get(self, render=True)
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/im.py", line 271, in get
+    surf = image.load()
+  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/display/im.py", line 688, in load
     raise e
-SyntaxError: invalid syntax (script.rpy, line 120)
+IOError: Couldn't find file 'images/mnRoomBlur2.jpg'.
 
-Windows-7-6.1.7601-SP1
+Linux-5.8.0-59-generic-x86_64-with-debian-bullseye-sid
 Ren'Py 7.4.6.1693
 Я не буду искать оправданий 0.1-beta
-Sat Jul 10 16:52:35 2021
+Fri Jul 16 06:27:43 2021
