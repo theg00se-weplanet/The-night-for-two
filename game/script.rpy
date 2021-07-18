@@ -284,12 +284,13 @@ label start:
             "Из коридора донесся шум включаемой воды, за ним последовал мощный всплеск-плюх, а потом по квартире разлилось тихое мелодичное пение – Мана в своем стиле принимала душ."
             hide pnshock with dissolve
             stop music fadeout 2
-    #$ renpy.pause(2)
-    #play music daily fadein 2
-    #show screen interactive
-    "в будущем здесь будет интересная механика, но пока что она не доработана"
-    #hide screen interactive
-    #stop music fadeout 2
+    $ renpy.pause(2)
+    play music daily fadein 2
+    show screen interactive
+    
+label part1_2:
+    hide screen interactive
+    stop music fadeout 2
     scene blink with dissolve
     show text "Воспоминания" at truecenter with dissolve
     ""
@@ -489,8 +490,7 @@ label start:
     "Планя только и успела, что шагнуть назад, к кровати, и тут словно пьяный электрик отрубил все электричество – свет в ее глазах померк окончательно, а сознание безо всякого предупреждения покинуло это тело, тут же неловко рухнувшее на кровать."
     scene blink with dissolve
 
-    #This text is useless, but I want this game to contain at least 500 lines xD
-    #If Planya starts singing: 🌟⭐🌟⭐🌟⭐🌟⭐🌟
+    #This text is useless, but I want this file to contain at least 500 lines xD
     stop music fadeout 2
     scene blink with dissolve
     $ renpy.pause(2)
