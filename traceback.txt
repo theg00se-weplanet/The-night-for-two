@@ -1,28 +1,28 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 290, in script
-    while i == False:
-  File "game/script.rpy", line 290, in <module>
-    while i == False:
-NameError: name 'i' is not defined
+  File "game/labels.rpy", line 247, in script
+    if trigger_dino:
+  File "game/labels.rpy", line 247, in <module>
+    if trigger_dino:
+NameError: name 'trigger_dino' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 290, in script
-    while i == False:
-  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/ast.py", line 1836, in execute
-    if renpy.python.py_eval(self.condition):
-  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/python.py", line 2249, in py_eval
+  File "game/labels.rpy", line 247, in script
+    if trigger_dino:
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/ast.py", line 1892, in execute
+    if renpy.python.py_eval(condition):
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/python.py", line 2249, in py_eval
     return py_eval_bytecode(code, globals, locals)
-  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/python.py", line 2242, in py_eval_bytecode
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/python.py", line 2242, in py_eval_bytecode
     return eval(bytecode, globals, locals)
-  File "game/script.rpy", line 290, in <module>
-    while i == False:
-NameError: name 'i' is not defined
+  File "game/labels.rpy", line 247, in <module>
+    if trigger_dino:
+NameError: name 'trigger_dino' is not defined
 
-Linux-5.8.0-59-generic-x86_64-with-debian-bullseye-sid
-Ren'Py 7.4.7.1770
+Windows-10-10.0.19041
+Ren'Py 7.4.6.1693
 Я не буду искать оправданий 0.1-beta
-Tue Jul 20 01:18:43 2021
+Tue Jul 20 01:53:19 2021

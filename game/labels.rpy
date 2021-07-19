@@ -285,6 +285,8 @@ label cupboard:
         "Планя вздохнула и облокотилась руками о стол. Нет, она туда точно не
         полезет…"
 
+        return
+
 label doomguy_helmet:
 
     show helmet
@@ -328,6 +330,8 @@ label poster:
     «Планя, все-таки ты хорни…», смущенно подумала она."
 
     hide poster
+
+    jump part1_2
 
     return
 

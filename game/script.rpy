@@ -26,8 +26,9 @@ init:
     #Some triggers
     define hug_trigger = -1
     define i = False
-    define trigger_globe = False 
-        #Mana's sprites
+    define trigger_globe = False
+    $ trigger_dino = trigger_globe = trigger_book_3 = trigger_book_4 = False
+    #Mana's sprites
     image mnlaugh = "images/mn_koikatsu/mn(laugh).png"
     image mnconc = "images/mn_koikatsu/mn(concentrated).png"
     image mncalmsleep = "images/mn_koikatsu/mn(calmsleep).png"
@@ -38,7 +39,7 @@ init:
     image mnhappy = "images/mn_koikatsu/mn(happy).png"
     image mnhug = "images/mn_koikatsu/mn(hug).png"
     image mnpained = "images/mn_koikatsu/mn(pained).png"
-    
+
     #Planya's sprites
     image pnlaugh = "images/pn_koikatsu/pn(laugh).png"
     image pnshock = "images/pn_koikatsu/pn(shock).png"
@@ -57,7 +58,7 @@ init:
     image blink = "images/blackScreen.png"
     #Music $  = "audio/music//.mp3" #
     $ SHOwer = "audio/music/shower.mp3"
-    $ calm = "audio/music/calm.mp3" 
+    $ calm = "audio/music/calm.mp3"
     $ erotic_lovers = "audio/music/erotic_lovers.mp3" #For erotic scenes
 
     $ vntrack01 = "audio/music/ternox/vntrack01.mp3" #Calm, and i love it!
@@ -80,7 +81,7 @@ init:
     $ romantic = "audio/music/green_bear_music/romanticbgm.mp3"
     $ reflective = "audio/music/green_bear_music/reflectivebgm.mp3" #Lovely
     $ bittersweet = "audio/music/green_bear_music/bittersweetbgm.mp3" #Erotic
-    $ theme = "audio/music/green_bear_music/themebgm.mp3" #Sad, mystery - I love it! 
+    $ theme = "audio/music/green_bear_music/themebgm.mp3" #Sad, mystery - I love it!
     $ cheerful = "audio/music/green_bear_music/cheerfulbgm.mp3"
     $ cheerful2 = "audio/music/green_bear_music/cheerfulbgm2.mp3"
     $ daily = "audio/music/green_bear_music/dailybgm.mp3"
@@ -93,7 +94,7 @@ init:
     $ zvon = "audio/zvon.mp3"
     $ bump = "audio/bump.mp3"
     $ door_close = "audio/door_close.mp3"
-    
+
 label start:
     show text "{b} Я не буду искать оправданий{/b}\n Пролог" at truecenter with dissolve
     ""
@@ -291,4 +292,3 @@ label start:
     while i == False:
         ""
         $ renpy.pause(100)
-    jump part1_2
