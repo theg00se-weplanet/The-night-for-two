@@ -1,34 +1,64 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
-While running game code:
-  File "renpy/common/00themes.rpy", line 1245, in script
-    init 1400 python:
-  File "renpy/common/00themes.rpy", line 1245, in script
-    init 1400 python:
-  File "renpy/common/00themes.rpy", line 1248, in <module>
-    theme.image_buttons(config.image_buttons)
-AttributeError: 'unicode' object has no attribute 'image_buttons'
+While loading <'Image' u'images/mnRoomNight Blur2.jpg'>:
+  File "game/script.rpy", line 486, in script
+    scene mnRoomBlur with dissolve
+IOError: Couldn't find file 'images/mnRoomNight Blur2.jpg'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/bootstrap.py", line 326, in bootstrap
-    renpy.main.main()
-  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/main.py", line 515, in main
-    renpy.game.context().run(node)
-  File "renpy/common/00themes.rpy", line 1245, in script
-    init 1400 python:
-  File "renpy/common/00themes.rpy", line 1245, in script
-    init 1400 python:
-  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/ast.py", line 923, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "/home/the-g00se/renpy-7.4.6-sdk/renpy/python.py", line 2218, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "renpy/common/00themes.rpy", line 1248, in <module>
-    theme.image_buttons(config.image_buttons)
-AttributeError: 'unicode' object has no attribute 'image_buttons'
+  File "game/script.rpy", line 486, in script
+    scene mnRoomBlur with dissolve
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/ast.py", line 1437, in execute
+    renpy.exports.with_statement(trans, paired)
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/exports.py", line 1682, in with_statement
+    return renpy.game.interface.do_with(trans, paired, clear=clear)
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/core.py", line 2718, in do_with
+    clear=clear)
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/core.py", line 3276, in interact
+    repeat, rv = self.interact_core(preloads=preloads, trans_pause=trans_pause, pause=pause, pause_start=pause_start, **kwargs)
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/core.py", line 3792, in interact_core
+    self.draw_screen(root_widget, fullscreen_video, (not fullscreen_video) or video_frame_drawn)
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/core.py", line 2521, in draw_screen
+    renpy.config.screen_height,
+  File "render.pyx", line 492, in renpy.display.render.render_screen
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/transition.py", line 368, in render
+    top = render(self.new_widget, width, height, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/layout.py", line 786, in render
+    surf = render(child, width, height, cst, cat)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/transform.py", line 708, in render
+    return transform_render(self, width, height, st, at)
+  File "accelerator.pyx", line 140, in renpy.display.accelerator.transform_render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/image.py", line 501, in render
+    return wrap_render(self.target, width, height, st, at)
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/image.py", line 307, in wrap_render
+    rend = render(child, w, h, st, at)
+  File "render.pyx", line 170, in renpy.display.render.render
+  File "render.pyx", line 263, in renpy.display.render.render
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/im.py", line 607, in render
+    return cache.get(self, render=True)
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/im.py", line 271, in get
+    surf = image.load()
+  File "A:\Загрузки\Шмотки\Собираем шмотки\RenPy\renpy-7.3.5-sdk/renpy/display/im.py", line 688, in load
+    raise e
+IOError: Couldn't find file 'images/mnRoomNight Blur2.jpg'.
 
-Linux-5.8.0-59-generic-x86_64-with-debian-bullseye-sid
-Ren'Py 7.4.7.1770
+Windows-10-10.0.19041
+Ren'Py 7.4.6.1693
 Я не буду искать оправданий 0.1-beta
-Fri Jul 16 07:09:18 2021
+Tue Jul 20 00:07:42 2021
