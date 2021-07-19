@@ -25,6 +25,7 @@ init:
     $ gs = Character (u'гусиный посол', color="#ff9221", what_color="#ffffff", who_drop_shadow=[ (2, 1) ])
     #Some triggers
     define hug_trigger = -1
+    define i = False
     define trigger_globe = False 
         #Mana's sprites
     image mnlaugh = "images/mn_koikatsu/mn(laugh).png"
@@ -287,3 +288,7 @@ label start:
     $ renpy.pause(2)
     play music daily fadein 2
     show screen interactive
+    while i == False:
+        ""
+        $ renpy.pause(100)
+    jump part1_2
